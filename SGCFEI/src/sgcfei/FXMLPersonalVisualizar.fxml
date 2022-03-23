@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="337.0" prefWidth="600.0" style="-fx-border-color: #bcbcbc; -fx-border-width: 10; -fx-background-color: #ffffff;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="sgcfei.FXMLPersonalVisualizarController">
+   <children>
+      <Button fx:id="btSalir" layoutX="504.0" layoutY="286.0" mnemonicParsing="false" onAction="#clicSalir" prefHeight="25.0" prefWidth="56.0" text="Salir" />
+      <Label fx:id="lbTitulo" layoutX="34.0" layoutY="28.0" prefHeight="17.0" prefWidth="283.0" text="VISUALIZAR PERSONAL No:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="94.0" text="No. Personal:" />
+      <TextField fx:id="tfNumPer" layoutX="134.0" layoutY="90.0" style="-fx-opacity: 1;"/>
+      <Label layoutX="54.0" layoutY="136.0" text="Nombre:" />
+      <TextField fx:id="tfNombre" layoutX="134.0" layoutY="132.0" prefHeight="25.0" prefWidth="193.0" style="-fx-opacity: 1;"/>
+      <Label layoutX="52.0" layoutY="183.0" text="Apellidos:" />
+      <TextField fx:id="tfApellidos" layoutX="134.0" layoutY="179.0" prefHeight="25.0" prefWidth="241.0" style="-fx-opacity: 1;"/>
+      <Label layoutX="48.0" layoutY="237.0" text="Correo Institucional:" />
+      <TextField fx:id="tfCorreoInstitucional" layoutX="163.0" layoutY="233.0" prefHeight="25.0" prefWidth="241.0" style="-fx-opacity: 1;"/>
+   </children>
+</AnchorPane>

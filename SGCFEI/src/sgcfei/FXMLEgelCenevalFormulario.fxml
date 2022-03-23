@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="418.0" prefWidth="508.0" style="-fx-border-color: #bcbcbc; -fx-border-width: 10; -fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgcfei.FXMLEgelCenevalFormularioController">
+   <children>
+      <Label fx:id="lbTitulo" layoutX="37.0" layoutY="39.0" prefHeight="40.0" prefWidth="204.0" text="Agregar EGEL CENEVAL">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="90.0" prefHeight="23.0" prefWidth="111.0" text="Nombre Estudiante:" />
+      <Label layoutX="37.0" layoutY="184.0" prefHeight="17.0" prefWidth="70.0" text="Periodo:" />
+      <Label layoutX="37.0" layoutY="142.0" prefHeight="17.0" prefWidth="93.0" text="Fecha Examen:" />
+      <TextField fx:id="tfPeriodo" layoutX="160.0" layoutY="184.0" prefHeight="25.0" prefWidth="294.0" />
+      <ComboBox fx:id="cbEstudiante" layoutX="160.0" layoutY="89.0" prefHeight="25.0" prefWidth="294.0" />
+      <TextField fx:id="tfFechaExamen" layoutX="160.0" layoutY="138.0" prefHeight="25.0" prefWidth="294.0" promptText="YYYY/MM/DD" />
+      <Label layoutX="37.0" layoutY="238.0" prefHeight="17.0" prefWidth="70.0" text="Puntuaje:" />
+      <TextField fx:id="tfPuntaje" layoutX="160.0" layoutY="234.0" prefHeight="25.0" prefWidth="60.0" />
+      <Button fx:id="btGuardar" layoutX="402.0" layoutY="342.0" mnemonicParsing="false" onAction="#clicGuardar" text="Guardar" />
+   </children>
+</AnchorPane>

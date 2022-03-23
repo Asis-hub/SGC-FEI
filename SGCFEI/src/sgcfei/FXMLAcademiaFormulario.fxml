@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="403.0" prefWidth="450.0" style="-fx-border-color: #bcbcbc; -fx-border-width: 10; -fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgcfei.FXMLAcademiaFormularioController">
+   <children>
+      <Label fx:id="lbTitulo" layoutX="37.0" layoutY="39.0" prefHeight="40.0" prefWidth="368.0" text="Agregar Academia">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="90.0" prefHeight="23.0" prefWidth="127.0" text="Nombre de Academia:" />
+      <Label layoutX="37.0" layoutY="171.0" text="Descripción:" />
+      <TextArea fx:id="tfDescripcionAcademia" layoutX="111.0" layoutY="171.0" prefHeight="165.0" prefWidth="297.0" />
+      <Label layoutX="37.0" layoutY="132.0" prefHeight="17.0" prefWidth="147.0" text="Coordinador de Academia:" />
+      <TextField fx:id="tfAcademia" layoutX="164.0" layoutY="89.0" prefHeight="25.0" prefWidth="241.0" />
+      <ComboBox fx:id="cbCoordinador" layoutX="185.0" layoutY="128.0" prefHeight="25.0" prefWidth="224.0" />
+      <Button layoutX="321.0" layoutY="347.0" mnemonicParsing="false" onAction="#clicGuardar" prefHeight="25.0" prefWidth="84.0" text="Guardar" />
+   </children>
+</AnchorPane>

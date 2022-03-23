@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="350.0" prefWidth="508.0" style="-fx-border-color: #bcbcbc; -fx-border-width: 10; -fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgcfei.FXMLCuerpoAcademicoFormularioController">
+   <children>
+      <Label fx:id="lbTitulo" layoutX="37.0" layoutY="39.0" prefHeight="40.0" prefWidth="237.0" text="Agregar Cuerpo Académico">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="90.0" prefHeight="23.0" prefWidth="152.0" text="Nombre Cuerpo Académico:" />
+      <Label layoutX="37.0" layoutY="131.0" prefHeight="17.0" prefWidth="76.0" text="LGCA:" />
+      <TextField fx:id="textNombreCuerpoAcademico" layoutX="193.0" layoutY="89.0" prefHeight="25.0" prefWidth="257.0" />
+      <Label layoutX="40.0" layoutY="171.0" prefHeight="17.0" prefWidth="70.0" text="Descripción:" />
+      <TextField fx:id="textDescripcion" layoutX="113.0" layoutY="168.0" prefHeight="90.0" prefWidth="341.0" />
+      <Button layoutX="225.0" layoutY="286.0" mnemonicParsing="false" onAction="#clicGuardar" text="Guardar" />
+      <ComboBox fx:id="cbLGCA" layoutX="193.0" layoutY="127.0" prefHeight="25.0" prefWidth="257.0" />
+   </children>
+</AnchorPane>

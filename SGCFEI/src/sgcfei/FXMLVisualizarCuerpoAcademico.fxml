@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="515.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgcfei.FXMLVisualizarCuerpoAcademicoController">
+   <children>
+      <Button layoutX="409.0" layoutY="474.0" mnemonicParsing="false" onAction="#clicSalir" prefHeight="25.0" prefWidth="79.0" text="Salir" />
+      <Label layoutX="25.0" layoutY="131.0" text="Descripcion Cuerpo Academico:" />
+      <Label layoutX="147.0" layoutY="336.0" text="Grado:" />
+      <Label layoutX="88.0" layoutY="370.0" prefHeight="17.0" prefWidth="97.0" text="Descripcion LGAC:" />
+      <Label layoutX="107.0" layoutY="263.0" text="Nombre LGAC:" />
+      <Label layoutX="41.0" layoutY="88.0" text="Nombre Cuerpo Academico:" />
+      <Label layoutX="149.0" layoutY="301.0" text="Clave:" />
+      <TextField fx:id="lbNombreCuerpoAcademico" layoutX="200.0" layoutY="84.0" prefHeight="25.0" prefWidth="288.0" style="-fx-opacity: 1.0" />
+      <TextArea fx:id="taDescripcionCuerpoAcademico" layoutX="200.0" layoutY="131.0" prefHeight="74.0" prefWidth="288.0" />
+      <TextField fx:id="tfClaveLGAC" layoutX="198.0" layoutY="297.0" prefHeight="25.0" prefWidth="288.0" style="-fx-opacity: 1.0" />
+      <TextField fx:id="tfReposanble" layoutX="200.0" layoutY="218.0" prefHeight="25.0" prefWidth="288.0" style="-fx-opacity: 1.0" />
+      <TextField fx:id="tfNombreLGAC" layoutX="200.0" layoutY="259.0" prefHeight="25.0" prefWidth="288.0" style="-fx-opacity: 1.0" />
+      <TextField fx:id="tfGrado" layoutX="197.0" layoutY="332.0" prefHeight="25.0" prefWidth="288.0" style="-fx-opacity: 1.0" />
+      <Label layoutX="114.0" layoutY="222.0" text="Responsable:" />
+      <Label fx:id="lbTitulo" layoutX="42.0" layoutY="31.0" prefHeight="27.0" prefWidth="516.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="taDescripcionLGAC" layoutX="198.0" layoutY="370.0" prefHeight="81.0" prefWidth="288.0" />
+   </children>
+</AnchorPane>

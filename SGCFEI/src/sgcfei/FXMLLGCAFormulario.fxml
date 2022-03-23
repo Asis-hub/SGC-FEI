@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="418.0" prefWidth="508.0" style="-fx-border-color: #bcbcbc; -fx-border-width: 10; -fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgcfei.FXMLLGCAFormularioController">
+   <children>
+      <Label fx:id="lbTitulo" layoutX="37.0" layoutY="39.0" prefHeight="40.0" prefWidth="445.0" text="Agregar LGAC:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="135.0" prefHeight="23.0" prefWidth="111.0" text="Nombre:" />
+      <Label layoutX="37.0" layoutY="240.0" prefHeight="17.0" prefWidth="93.0" text="DesAdscripción:" />
+      <TextField fx:id="tfClave" layoutX="158.0" layoutY="93.0" prefHeight="25.0" prefWidth="292.0" />
+      <TextField fx:id="tfNombre" layoutX="158.0" layoutY="127.0" prefHeight="25.0" prefWidth="292.0" />
+      <Label layoutX="37.0" layoutY="209.0" prefHeight="17.0" prefWidth="70.0" text="Responsable:" />
+      <Label layoutX="37.0" layoutY="93.0" prefHeight="17.0" prefWidth="70.0" text="Clave:" />
+      <TextField fx:id="tfGrado" layoutX="158.0" layoutY="168.0" prefHeight="25.0" prefWidth="292.0" />
+      <TextArea fx:id="ttDescripcion" layoutX="158.0" layoutY="240.0" prefHeight="99.0" prefWidth="292.0" />
+      <Label layoutX="37.0" layoutY="169.0" prefHeight="23.0" prefWidth="93.0" text="Grado:" />
+      <Button layoutX="228.0" layoutY="369.0" mnemonicParsing="false" onAction="#clicGuardar" text="Guardar" />
+      <ComboBox fx:id="cbResponsable" layoutX="158.0" layoutY="205.0" prefHeight="25.0" prefWidth="292.0" />
+   </children>
+</AnchorPane>

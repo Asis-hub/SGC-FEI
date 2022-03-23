@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="317.0" prefWidth="479.0" style="-fx-border-color: #bcbcbc; -fx-border-width: 10; -fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgcfei.FXMLControlUsuariosVisualizarController">
+   <children>
+      <Label fx:id="lbTitulo" layoutX="37.0" layoutY="39.0" prefHeight="40.0" prefWidth="419.0" text="Visualizar Usuario:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="90.0" prefHeight="23.0" prefWidth="127.0" text="Username:" />
+      <TextField fx:id="tfUsuario" disable="true" layoutX="108.0" layoutY="89.0" prefHeight="25.0" prefWidth="297.0" style="-fx-opacity: 1;" />
+      <Label layoutX="37.0" layoutY="132.0" prefHeight="17.0" prefWidth="62.0" text="Academico:" />
+      <Label layoutX="37.0" layoutY="174.0" prefHeight="17.0" prefWidth="62.0" text="Rol:" />
+      <TextField fx:id="tfAcademico" disable="true" layoutX="108.0" layoutY="128.0" prefHeight="25.0" prefWidth="297.0" style="-fx-opacity: 1;" />
+      <TextField fx:id="tfRol" disable="true" layoutX="68.0" layoutY="170.0" prefHeight="25.0" prefWidth="337.0" style="-fx-opacity: 1;" />
+      <Label layoutX="37.0" layoutY="223.0" text="Correo Electrónico:" />
+      <TextField fx:id="tfCorreo" disable="true" layoutX="145.0" layoutY="219.0" prefHeight="25.0" prefWidth="259.0" style="-fx-opacity: 1;" />
+      <Button fx:id="btSalir" layoutX="381.0" layoutY="269.0" mnemonicParsing="false" onAction="#clicSalir" prefHeight="25.0" prefWidth="62.0" text="Salir" />
+   </children>
+</AnchorPane>

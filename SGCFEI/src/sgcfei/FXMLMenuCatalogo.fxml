@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="466.0" prefWidth="817.0" style="-fx-border-color: #bcbcbc; -fx-border-width: 10; -fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgcfei.FXMLMenuCatalogoController">
+   <children>
+      <Label fx:id="tfCatalogo" layoutX="72.0" layoutY="84.0" opacity="0.76" prefHeight="35.0" prefWidth="222.0" text="Menú de Catálogos">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="90.0" layoutY="206.0" mnemonicParsing="false" onAction="#clicConsultaEstudiante" prefHeight="54.0" prefWidth="186.0" style="-fx-background-color: #443c44;" text="Consultar Estudiantes" textFill="#ebebeb">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="316.0" layoutY="207.0" mnemonicParsing="false" onAction="#clicConsultaAcademia" prefHeight="54.0" prefWidth="186.0" style="-fx-background-color: #443c44;" text="Consultar Academias" textFill="#ebebeb">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="545.0" layoutY="207.0" mnemonicParsing="false" onAction="#clicConsultaEE" prefHeight="54.0" prefWidth="186.0" style="-fx-background-color: #443c44;" text="Consultar E.E." textFill="#ebebeb">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="90.0" layoutY="304.0" mnemonicParsing="false" onAction="#clicConsultaCuerpoAcademico" prefHeight="54.0" prefWidth="186.0" style="-fx-background-color: #443c44;" text="Consultar Cuerpo Acad." textFill="#ebebeb">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="316.0" layoutY="304.0" mnemonicParsing="false" onAction="#clicConsultaPersonal" prefHeight="54.0" prefWidth="186.0" style="-fx-background-color: #443c44;" text="Consultar Personal" textFill="#ebebeb">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="545.0" layoutY="304.0" mnemonicParsing="false" onAction="#clicConsultaLGCA" prefHeight="54.0" prefWidth="186.0" style="-fx-background-color: #443c44;" text="Consultar LGCA" textFill="#ebebeb">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="316.0" layoutY="133.0" opacity="0.35" strokeType="OUTSIDE" strokeWidth="0.0" text="SGC" wrappingWidth="186.0">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Text>
+      <Button layoutX="673.0" layoutY="396.0" mnemonicParsing="false" onAction="#clicMenuPrincipal" prefHeight="35.0" prefWidth="117.0" text="Salir" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

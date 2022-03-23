@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="322.0" prefWidth="508.0" style="-fx-border-color: #bcbcbc; -fx-border-width: 10; -fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgcfei.FXMLPersonalFormularioController">
+   <children>
+      <Label fx:id="lbTitulo" layoutX="37.0" layoutY="39.0" prefHeight="40.0" prefWidth="446.0" text="Agregar Personal">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="90.0" prefHeight="23.0" prefWidth="111.0" text="No. Personal:" />
+      <Label layoutX="37.0" layoutY="132.0" prefHeight="17.0" prefWidth="76.0" text="Nombre:" />
+      <TextField fx:id="tfNombre" layoutX="110.0" layoutY="128.0" prefHeight="25.0" prefWidth="355.0" />
+      <TextField fx:id="tfNoPersonal" layoutX="109.0" layoutY="89.0" prefHeight="25.0" prefWidth="355.0" />
+      <Label layoutX="37.0" layoutY="169.0" prefHeight="17.0" prefWidth="70.0" text="Apellidos:" />
+      <TextField fx:id="tfApellidos" layoutX="110.0" layoutY="165.0" prefHeight="25.0" prefWidth="355.0" />
+      <Label layoutX="37.0" layoutY="209.0" prefHeight="17.0" prefWidth="111.0" text="Correo Institucional:" />
+      <TextField fx:id="tfCorreo" layoutX="148.0" layoutY="205.0" prefHeight="25.0" prefWidth="319.0" />
+      <Button layoutX="394.0" layoutY="258.0" mnemonicParsing="false" onAction="#clicGuardar" prefHeight="25.0" prefWidth="70.0" text="Guardar" />
+   </children>
+</AnchorPane>

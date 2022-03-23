@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="560.0" prefWidth="508.0" style="-fx-border-color: #bcbcbc; -fx-border-width: 10; -fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgcfei.FXMLTrabajoRecepcionalFormularioController">
+   <children>
+      <Label fx:id="lbTitulo" layoutX="37.0" layoutY="39.0" prefHeight="40.0" prefWidth="254.0" text="Agregar Trabajo Recepcional">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="90.0" prefHeight="23.0" prefWidth="162.0" text="Nombre Trabajo Recepcional:" />
+      <Label layoutX="37.0" layoutY="132.0" prefHeight="17.0" prefWidth="83.0" text="Fecha Registro:" />
+      <TextField fx:id="tfFechaRegistro" layoutX="124.0" layoutY="128.0" prefHeight="25.0" prefWidth="341.0" />
+      <TextField fx:id="tfTrabajoRecepcional" layoutX="196.0" layoutY="89.0" prefHeight="25.0" prefWidth="270.0" />
+      <Label layoutX="34.0" layoutY="312.0" prefHeight="17.0" prefWidth="70.0" text="Descripción:" />
+      <TextArea fx:id="tfDescripcion" layoutX="107.0" layoutY="312.0" prefHeight="162.0" prefWidth="361.0" />
+      <Label layoutX="37.0" layoutY="173.0" prefHeight="17.0" prefWidth="64.0" text="Estudiante:" />
+      <Label layoutX="37.0" layoutY="206.0" text="Director:" />
+      <Label layoutX="37.0" layoutY="239.0" text="CoDirector" />
+      <Label layoutX="37.0" layoutY="277.0" text="Sinodal:" />
+      <ComboBox fx:id="cbEstudiante" layoutX="107.0" layoutY="169.0" prefHeight="25.0" prefWidth="361.0" />
+      <ComboBox fx:id="cbDirector" layoutX="107.0" layoutY="202.0" prefHeight="25.0" prefWidth="361.0" />
+      <ComboBox fx:id="cbCoDirector" layoutX="107.0" layoutY="235.0" prefHeight="25.0" prefWidth="361.0" />
+      <ComboBox fx:id="cbSinodal" layoutX="107.0" layoutY="273.0" prefHeight="25.0" prefWidth="361.0" />
+      <Button layoutX="404.0" layoutY="502.0" mnemonicParsing="false" onAction="#clicGuardar" prefHeight="25.0" prefWidth="64.0" text="Guardar" />
+   </children>
+</AnchorPane>

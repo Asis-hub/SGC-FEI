@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="366.0" prefWidth="552.0" style="-fx-border-color: #bcbcbc; -fx-border-width: 10; -fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgcfei.FXMLLGCAVisualizarController">
+   <children>
+      <Label fx:id="lbTitulo" layoutX="56.0" layoutY="31.0" prefHeight="27.0" prefWidth="463.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="58.0" layoutY="81.0" text="Clave:" />
+      <Label layoutX="300.0" layoutY="81.0" text="Nombre:" />
+      <Label layoutX="56.0" layoutY="119.0" text="Grado:" />
+      <Label layoutX="21.0" layoutY="163.0" text="Responsable:" />
+      <Label layoutX="26.0" layoutY="213.0" text="DesAdscripcion:" />
+      <TextField fx:id="tfClave" layoutX="115.0" layoutY="77.0" style="-fx-opacity: 1.0" />
+      <TextField fx:id="tfNombre" layoutX="357.0" layoutY="77.0" style="-fx-opacity: 1.0" />
+      <TextField fx:id="tfGrado" layoutX="115.0" layoutY="115.0" style="-fx-opacity: 1.0" />
+      <TextField fx:id="tfResponsable" layoutX="115.0" layoutY="159.0" style="-fx-opacity: 1.0" />
+      <TextArea fx:id="tfDescripcion" editable="false" focusTraversable="false" layoutX="114.0" layoutY="213.0" prefHeight="67.0" prefWidth="395.0" />
+      <Label layoutX="304.0" layoutY="163.0" text="Correo:" />
+      <TextField fx:id="tfCorreo" layoutX="357.0" layoutY="159.0" style="-fx-opacity: 1.0" />
+      <Button layoutX="439.0" layoutY="318.0" mnemonicParsing="false" onAction="#clicSalir" prefHeight="25.0" prefWidth="70.0" text="Salir" />
+   </children>
+</AnchorPane>

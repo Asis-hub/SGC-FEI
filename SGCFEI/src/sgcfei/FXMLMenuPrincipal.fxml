@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="466.0" prefWidth="817.0" style="-fx-border-color: #bcbcbc; -fx-border-width: 10; -fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgcfei.FXMLMenuPrincipalController">
+   <children>
+      <Label fx:id="lbModulos" layoutX="95.0" layoutY="43.0" prefHeight="54.0" prefWidth="140.0" text="Módulos">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button layoutX="95.0" layoutY="138.0" mnemonicParsing="false" onAction="#clicMenuCatalogo" prefHeight="81.0" prefWidth="269.0" text="Actualización de Catálogos" />
+      <Button layoutX="432.0" layoutY="138.0" mnemonicParsing="false" onAction="#clicMenuControlUsuarios" prefHeight="81.0" prefWidth="269.0" text="Control de Usuarios" />
+      <Button layoutX="95.0" layoutY="263.0" mnemonicParsing="false" onAction="#clicMenuTrabajoRecepcional" prefHeight="81.0" prefWidth="269.0" text="Registro y Actualización de Trabajo Recepcional" />
+      <Button layoutX="432.0" layoutY="263.0" mnemonicParsing="false" onAction="#clicMenuEgelCeneval" prefHeight="81.0" prefWidth="269.0" text="Registro y Actualización de EGEL CENEVAL" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="589.0" prefWidth="862.0" style="-fx-border-color: #bcbcbc; -fx-border-width: 10; -fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgcfei.FXMLPersonalConsultaController">
+    <children>
+      <Label fx:id="lbTitulo" layoutX="55.0" layoutY="42.0" prefHeight="49.0" prefWidth="288.0" text="Consulta de Personal">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="396.0" layoutY="49.0" mnemonicParsing="false" onAction="#clicAgregar" prefHeight="35.0" prefWidth="124.0" style="-fx-background-color: #443c44;" text="Agregar" textFill="#ebebeb" />
+      <Button layoutX="543.0" layoutY="49.0" mnemonicParsing="false" onAction="#clicEditar" prefHeight="35.0" prefWidth="124.0" style="-fx-background-color: #443c44;" text="Editar" textFill="#ebebeb" />
+      <Button layoutX="686.0" layoutY="49.0" mnemonicParsing="false" onAction="#clicEliminar" prefHeight="35.0" prefWidth="124.0" style="-fx-background-color: #443c44;" text="Eliminar" textFill="#ebebeb" />
+      <Label layoutX="55.0" layoutY="91.0" prefHeight="29.0" prefWidth="69.0" text="Buscar por">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfBuscar" layoutX="124.0" layoutY="93.0" prefHeight="25.0" prefWidth="169.0" promptText="Nombre/NoPersonal" />
+      <TableView fx:id="tbPersonal" layoutX="55.0" layoutY="131.0" prefHeight="385.0" prefWidth="759.0">
+        <columns>
+          <TableColumn fx:id="colNombrePersonal" prefWidth="173.0" text="Nombre" />
+            <TableColumn fx:id="colApellidos" prefWidth="201.0" text="Apellidos" />
+          <TableColumn fx:id="colNoPersonal" prefWidth="185.0" text="NoPersonal" />
+            <TableColumn fx:id="colCorreoPersonal" prefWidth="199.0" text="Correo Institucional" />
+        </columns>
+      </TableView>
+      <Button layoutX="720.0" layoutY="537.0" mnemonicParsing="false" onAction="#clicMenuCatalogo" prefHeight="25.0" prefWidth="94.0" text="Salir" />
+   </children>
+</AnchorPane>

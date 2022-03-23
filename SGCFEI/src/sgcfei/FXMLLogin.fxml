@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgcfei.FXMLLoginController">
+   <children>
+      <Label layoutX="196.0" layoutY="49.0" text="Inicio de sesión" textFill="#0f0f65">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="164.0" text="Usuario" />
+      <Label layoutX="194.0" layoutY="266.0" text="Contraseña" />
+      <TextField fx:id="tfUser" layoutX="194.0" layoutY="197.0" />
+      <PasswordField fx:id="pfPassword" layoutX="193.0" layoutY="307.0" />
+      <Button layoutX="225.0" layoutY="386.0" mnemonicParsing="false" onAction="#clicIniciarSesion" text="Iniciar sesión" />
+      <Label fx:id="lbErrorUser" layoutX="193.0" layoutY="233.0" prefHeight="17.0" prefWidth="149.0" textFill="#eb0505" />
+      <Label fx:id="lbErrorPassword" layoutX="193.0" layoutY="341.0" prefHeight="17.0" prefWidth="149.0" textFill="RED" />
+   </children>
+</AnchorPane>

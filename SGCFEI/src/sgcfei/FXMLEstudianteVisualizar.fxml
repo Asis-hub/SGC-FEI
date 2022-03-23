@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="344.0" prefWidth="600.0" style="-fx-border-color: #bcbcbc; -fx-border-width: 10; -fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sgcfei.FXMLEstudianteVisualizarController">
+   <children>
+      <Button fx:id="btSalir" layoutX="511.0" layoutY="304.0" mnemonicParsing="false" onAction="#clicSalir" prefHeight="25.0" prefWidth="62.0" text="Salir" />
+      <Label layoutX="31.0" layoutY="27.0" text="Visualizar Estudiante">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="82.0" text="Nombre Estudiante:" />
+      <TextField fx:id="tfEstudiante" layoutX="160.0" layoutY="78.0" prefHeight="25.0" prefWidth="304.0" style="-fx-opacity: 1;"/>
+      <Label layoutX="42.0" layoutY="131.0" text="Matricula:" />
+      <TextField fx:id="tfMatricula" layoutX="160.0" layoutY="127.0" prefHeight="25.0" prefWidth="151.0" style="-fx-opacity: 1;"/>
+      <Label layoutX="42.0" layoutY="188.0" text="Correo Institucional:" />
+      <TextField fx:id="tfCorreoInstitucional" layoutX="159.0" layoutY="184.0" prefHeight="25.0" prefWidth="279.0" style="-fx-opacity: 1;"/>
+      <Label layoutX="40.0" layoutY="242.0" text="Programa Educativo:" />
+      <TextField fx:id="tfProgramaEducativo" layoutX="159.0" layoutY="238.0" prefHeight="25.0" prefWidth="279.0" style="-fx-opacity: 1;"/>
+   </children>
+</AnchorPane>
