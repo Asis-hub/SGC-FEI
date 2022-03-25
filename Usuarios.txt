@@ -1,0 +1,68 @@
+Username: Vcerdan01
+password: AtopENey
+Docente: DOLORES VARGAS CERDÁN
+Tipo: Docente
+
+
+Username:ElyMU
+Password: IONgTONA
+Docente: ELIZABETH  MURRIETA SANGABRIEL
+Tipo: Docente
+
+Username: Apolo45
+Password: paricuAraG
+Docente: ANA LUZ POLO ESTRELLA
+Tipo Docente
+
+Username: RMGR
+password: gropHeIN
+Docente: RAMÓN GÓMEZ ROMERO
+Tipo: Docente
+
+Username:Elrevo
+Password: toRgENte
+Docente: Juan Carlos  Pérez Arriaga
+Tipo: Coordinador
+
+Username: Angel2
+Password: eXcINSEL
+Docente: Virginia Angélica García Vega
+Tipo: Coordinador
+
+Username: Perez05
+Password: HIMlOwer
+Docente: Angélica  Pérez Hernández
+Tipo: Docente
+
+Username: Verdin01
+Password: UdiaLCIl
+Docente: María Karen Cortés Verdín
+Tipo: Coordinador
+
+Username: caceresJo
+Password: DERTAOrm
+Docente: José Rafael Rojano Cáceres 
+Tipo: Docente
+
+Username: BJAB
+Password: LiVEnSEc
+Dopcente: Abraham Cuesta Borges
+Tipo: Coordinador
+
+Username: MEGZ
+Password: MEadamES
+Docente: María Esther García Zamora
+Tipo: Docente
+
+
+
+
+
+
+
+
+
+
+
+
+
