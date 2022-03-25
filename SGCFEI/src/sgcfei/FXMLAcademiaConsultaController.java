@@ -135,17 +135,7 @@ public class FXMLAcademiaConsultaController implements Initializable, NotificaCa
         }
     }
     
-    @FXML
-    private void clicEditar(ActionEvent event) {
-        int seleccion = tbAcademias.getSelectionModel().getSelectedIndex();
-        if (seleccion >= 0) {
-            Academia academiaEdicion = academias.get(seleccion);
-            irPantallaFormulario(false, academiaEdicion);
-        } else {
-            Alert alertaVacio = Herramientas.builderAlert("Sin selección", "Para editar un registro, debe seleccionarlo de la tabla", Alert.AlertType.WARNING);
-            alertaVacio.showAndWait();
-        }
-    }
+    //Se eliminó la función de editar
     
     @FXML
     private void clicEliminar(ActionEvent event){
