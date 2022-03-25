@@ -95,9 +95,8 @@ public class FXMLControlUsuariosController implements Initializable, NotificaCam
         Alert alertConexion;
         if(conn != null){
             try{
-                String consulta = "SELECT idUsuario, username, password, a.idRol, a.idAcademico, b.nombre, b.apellidos, correo, c.nombre FROM usuario a, academico b, rol c WHERE a.idAcademico = b.idAcademico AND a.idRol = c.idRol;";
-                PreparedStatement ps = conn.prepareStatement(consulta);
-                ResultSet rs = ps.executeQuery();
+                //String consulta = "SELECT idUsuario, username, password, a.idRol, a.idAcademico, b.nombre, b.apellidos, correo, c.nombre FROM usuario a, academico b, rol c WHERE a.idAcademico = b.idAcademico AND a.idRol = c.idRol;";
+                
                 while(rs.next()){
                     Usuario usuario = new Usuario();
                     usuario.setIdUsuario(rs.getInt("idUsuario"));
